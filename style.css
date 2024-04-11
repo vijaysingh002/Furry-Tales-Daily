@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/good-dog');
+
+body {
+    font-family: 'GoodDog Plain', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('catdog.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    margin: 0;
+}
+
+.cont2 {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cont3 img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.bone {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.c1, .c2, .c3, .c4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #efcca2;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.c1:hover, .c2:hover, .c3:hover, .c4:hover {
+    box-shadow: 0 8px 16px 0 rgba(239, 204, 162, 0.5), 0 6px 20px 0 rgba(239, 204, 162, 0.5);
+}
+
+.c1 { left: 0; top: 0; }
+.c2 { right: 0; top: 0; }
+.c3 { left: 0; bottom: 0; }
+.c4 { right: 0; bottom: 0; }
+
+.b1 {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 120px;
+    height: 30px;
+    background-color: #efcca2;
+}
+
+.b2 {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.title, .subtitle, #cat-facts p {
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #000000, 2px 2px 4px #000000;
+    font-family: 'GoodDog Plain', sans-serif;
+}
